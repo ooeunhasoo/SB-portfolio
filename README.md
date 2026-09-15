@@ -1,6 +1,6 @@
 # AI NOTES — 한국경제 AI 교육 포트폴리오
 
-`dist/article.html`을 브라우저에서 열면 시작합니다. 같은 폴더의 이미지와 스타일 파일을 함께 유지하세요.
+저장소 최상단의 `index.html` 또는 `article.html`을 브라우저에서 열면 시작합니다. GitHub Pages도 최상단의 `index.html`을 바로 사용할 수 있습니다.
 
 - `article.html`: 대표 기사와 기사 목록, 상세 읽기
 - `image.html`: 아치형 이미지 갤러리, 이미지 확대와 프롬프트
@@ -10,6 +10,6 @@
 
 현재 콘텐츠는 모두 예시입니다. 이미지는 AI로 생성한 한 장의 정물 이미지이며 갤러리는 이를 크롭·색상 변형하여 보여 줍니다. 영상은 스토리보드 예시이며 실제 영상 파일은 포함되지 않았습니다.
 
-정적 HTML 포트폴리오로, 온라인 업로드·관리자 기능과 서버 저장은 포함하지 않습니다. 콘텐츠는 HTML에서 직접 수정하거나 `generate.cjs`를 수정한 뒤 `node generate.cjs`로 다시 생성할 수 있습니다. 실제 동영상은 video.html에 `<video controls src="assets/파일명.mp4"></video>` 형태로 연결할 수 있습니다.
+정적 HTML 포트폴리오로, 온라인 업로드·관리자 기능과 서버 저장은 포함하지 않습니다. GitHub에서 바로 확인할 수 있도록 완성된 파일을 저장소 최상단에 두었고, Sites 배포용 사본은 `dist` 폴더에 유지했습니다. 실제 동영상은 `video.html`에 `<video controls src="assets/파일명.mp4"></video>` 형태로 연결할 수 있습니다.
 
 폰트는 Google Fonts를 사용하며 인터넷 연결이 없으면 시스템 글꼴을 사용합니다.
